@@ -1,0 +1,53 @@
+.save-load {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.save {
+  height: 40%;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.load {
+  height: 40%;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.save-button,
+.load-button {
+  border-radius: 10px;
+  border: none;
+  height: 80%;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.save-button:focus,
+.load-button:focus {
+  outline: none;
+}
+
+.user-name {
+  border: none;
+  font-size: 16px;
+}
+
+.user-name:focus {
+  outline: none;
+}
+
+.save,
+.load {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}

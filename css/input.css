@@ -1,0 +1,32 @@
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field {
+  width: 30%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+.input-area {
+  height: 100%;
+  width: 87%;
+  margin-right: 30px;
+  border: none;
+  font-size: 20px;
+}
+
+.input-area:focus {
+  outline: none;
+}
+
+.add-button {
+  font-size: 20px;
+  cursor: pointer;
+}

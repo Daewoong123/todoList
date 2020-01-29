@@ -1,0 +1,31 @@
+.list-field {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.todo-list li {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.todo-list {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo-text {
+  width: 70%;
+}
+
+.todo-item i {
+  cursor: pointer;
+}

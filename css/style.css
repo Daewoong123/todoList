@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap");
+@import "reset.css";
+@import "clock.css";
+@import "input.css";
+@import "list.css";
+@import "save_load.css";
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.header {
+  height: 20%;
+}
+.save-load {
+  height: 10%;
+}
+.input-container {
+  height: 10%;
+  width: 100%;
+}
+.list-field {
+  width: 100%;
+  height: auto;
+}
